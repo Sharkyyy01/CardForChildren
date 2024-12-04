@@ -48,5 +48,6 @@ body {
 /* для того чтобы ссылки не подчеркивались */
 a {
     text-decoration: none;
+    text-shadow: 0px 0px 10px #f7f21a;
 }
 

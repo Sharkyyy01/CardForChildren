@@ -16,10 +16,12 @@ let cards = document.querySelector('.card'),
 
     });
 
+    
     card.addEventListener('mouseout', el => {
       el.target.style.transform = 'scale(1) rotateX(0) rotateY(0)';
     });
 
+    // воспроизведение звука при нажатии на карточку
     card.addEventListener('click', el => {
       let sound = el.target.parentElement.dataset.sound;
       player.setAttribute('src', `mp3/${sound}.mp3`);
